@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(input.nextInt());
     }
 }
